@@ -3,7 +3,7 @@ const productName = 'ProductName' //productname
 const quantity = 5 //product quantity
 const amount = 10 //product amount
 let taxRate = 0.12 //taxrate of product in decimals
-//convertion of taxrate from decimals to percent
+//convert taxrate from decimal  to percent
 let taxRatePercent = (taxRate * 100) 
 //calculation for subtotal
 const subTotal = quantity * amount
